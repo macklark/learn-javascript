@@ -6,6 +6,7 @@ const driver = {
   metrics: {
     wins: 71,
     championships: 4,
+    poles: 48,
   },
 };
 
@@ -23,9 +24,40 @@ const [sum, product] = addAndMultiply(2, 3);
 const { name, team } = driver;
 
 // can add alias in this way
-const { name: firstName, team: teamName, metrics } = driver;
+// can also perform nested destructuring as follows
+// and default values as well
+const {
+  name: firstName,
+  team: teamName,
+  metrics: { wins, championships, poles = 47 },
+} = driver;
+
+// EXERCISE
+function convertFullNametoFirstAndLast(fullName) {
+  const [fnName, lnName] = fullName.split(" ");
+  return {
+    returnArray: [fnName, lnName],
+    returnObject: {
+      fnName,
+      lnName,
+    },
+  };
+}
+
+const { returnArray, returnObject } =
+  convertFullNametoFirstAndLast("Max Verstappen");
+
+function subtractAndDivide({ numOne = 15, numTwo = 5 }) {
+  return [numOne - numTwo, numOne / numTwo];
+}
+
+const [subtract, divide] = subtractAndDivide({ numOne: 4, numTwo: 2 });
 
 console.log(first, second);
 console.log(sum, product);
 console.log(firstName, teamName);
-console.log(metrics);
+console.log(wins, championships, poles);
+console.log(returnArray);
+console.log(returnObject);
+console.log(subtract);
+console.log(divide);
