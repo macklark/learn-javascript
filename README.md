@@ -5,5 +5,6 @@ my notes and code while learning javascript
 - [destructuring](https://github.com/macklark/learn-javascript/blob/main/destructuring.js)
 - [spreadAndRestOperator](https://github.com/macklark/learn-javascript/blob/main/spreadAndRestOperator.js)
 - [enhancedObjectLiterals](https://github.com/macklark/learn-javascript/blob/main/enhancedObjectLiterals.js)
+- [defaultParameters](https://github.com/macklark/learn-javascript/blob/main/destructuring.js)
 ---
 source - [WDS - Kyle Cook](https://www.youtube.com/@WebDevSimplified)
