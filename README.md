@@ -9,5 +9,6 @@ my notes and code while learning javascript
 - [nullCoalescing](https://github.com/macklark/learn-javascript/blob/main/nullCoalescing.js)
 - [optionalChaining](https://github.com/macklark/learn-javascript/blob/main/optionalChaining.js)
 - [maps](https://github.com/macklark/learn-javascript/blob/main/maps.js)
+- [sets](https://github.com/macklark/learn-javascript/blob/main/sets.js)
 ---
 source - [WDS - Kyle Cook](https://www.youtube.com/@WebDevSimplified)
